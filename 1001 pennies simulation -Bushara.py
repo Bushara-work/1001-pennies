@@ -1,6 +1,6 @@
 while True:
     try:
-        value = int(input("How many coins are there? Please enter an integer value."))
+        value = int(input("How many pennies are there? Please enter an integer value."))
     except ValueError:
         print("That is an invalid answer. Please try again")
     else:
