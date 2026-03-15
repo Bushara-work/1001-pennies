@@ -1,7 +1,7 @@
 #ask for the amount of coins, until an integer is given
 while True:
     try:
-        coins = int(input("How many coins are there? Please enter an integer value."))
+        coins = int(input("How many pennies are there? Please enter an integer value."))
     except ValueError:
         print("That is an invalid answer. Please try again")
     else:
